@@ -32,7 +32,7 @@ npm run install
 Once the dependencies are installed, you can run the app:
 
 ```sh
-cd first-class-project
+cd firstClassProject
 npm start
 ```
 
