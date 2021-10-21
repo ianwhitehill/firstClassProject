@@ -18,7 +18,7 @@ const Loading = (props) => {
             <h2 >By Genuen</h2>
             <h2 className="loadPad">Version 2.0</h2>
             <h3>Copyright 2021 by Genuen LLC</h3>
-            {redirecter.redirect ? (<Redirect push to="/main" />) : null}
+            {redirecter.redirect ? (<Redirect push to="/selection" />) : null}
         </div>
     );
 }
