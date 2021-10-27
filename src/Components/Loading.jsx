@@ -13,7 +13,7 @@ const Loading = (props) => {
         return () => clearTimeout(timer);
     }, [])
     return (
-        <div className="container text-center">
+        <div className="container text-center topPad">
             <h1 className="loadPad">Triangle Classifier</h1>
             <h2 >By Genuen</h2>
             <h2 className="loadPad">Version 2.0</h2>

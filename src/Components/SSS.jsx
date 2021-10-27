@@ -90,7 +90,7 @@ const SSS = (props) => {
         }
     }
     return (
-        <div className="container">
+        <div className="container text-center topPad">
             {error.foundError ? (<Redirect push to = "/error"/>) : null}
             <form onSubmit={createAttFunction}>
                 <div><label htmlFor="hypotenuse">Enter Length of side A of the triangle in millimetres</label></div>

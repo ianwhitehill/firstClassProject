@@ -2,6 +2,10 @@
     margin: 10px;
 }
 
+.topPad {
+    margin-top: 50px;
+}
+
 .loadPad {
     margin-bottom: 100px;
 }

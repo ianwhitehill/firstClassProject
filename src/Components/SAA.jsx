@@ -88,7 +88,7 @@ const SAA = (props) => {
         setRedirect({ redirect: true });
     }
     return (
-        <div className="container">
+        <div className="container text-center topPad">
             <form onSubmit={createAttFunction}>
                 <div><label htmlFor="hypotenuse">Enter Length of side A of the triangle in millimetres</label></div>
                 <div><input type="text" name="hypotenuse" onChange={updateAtt} /><span> MM</span></div>
